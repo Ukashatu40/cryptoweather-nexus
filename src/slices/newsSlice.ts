@@ -1,10 +1,10 @@
-import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { fetchNews } from '../lib/api';
 import { RootState } from '@/store';
-import { NewsItem } from '@/types';
+import { NewsData } from '@/types'; // Use NewsData instead of NewsItem
 
 interface NewsState {
-  data: NewsItem[];
+  data: NewsData[];
   loading: boolean;
   error: string | null;
 }
@@ -40,7 +40,7 @@ const newsSlice = createSlice({
       })
       .addCase(getNews.rejected, (state, action) => {
         state.loading = false;
-        state.error = action.error.message || 'Failed to fetch news data';
+        state.error = action.error.message || 'Failed to fetch news';
       });
   },
 });
