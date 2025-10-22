@@ -342,7 +342,7 @@ export default function Home() {
         Twitter
       </a>
       <a
-        href="https://github.com/Ukashatu40/your-repo"
+        href="https://github.com/Ukashatu40/cryptoweather-nexus"
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-all"
@@ -350,7 +350,7 @@ export default function Home() {
         GitHub
       </a>
       <a
-        href="mailto:your-email@example.com"
+        href="mailto:ukasha.abdul.dev@gmail.com"
         className="text-gray-500 dark:text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-all"
       >
         Contact
