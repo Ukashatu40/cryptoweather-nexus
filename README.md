@@ -4,7 +4,7 @@ CryptoWeather Nexus is a modern, multi-page dashboard combining weather data, cr
 
 ## Live Demo
 
-[https://yourapp.vercel.app](https://yourapp.vercel.app) (Replace with your actual Vercel URL)
+(https://cryptoweather-nexus-mu.vercel.app/)
 
 ## Features
 
