@@ -93,11 +93,11 @@ export default function Home() {
           color: '#856404',
         },
       });
-    }, 600 * 1000);
+    }, 60 * 1000);
 
     const pollingInterval = setInterval(() => {
       fetchData();
-    }, 60 * 1000);
+    }, 10 * 1000);
 
     return () => {
       cleanupWebSocket();
